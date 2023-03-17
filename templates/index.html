@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Pacifico">
+  <link rel="icon" href="http://obj-cache.cloud.ruanbekker.com/favicon.ico">
+  <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet">
+
+  <title>Search Engine</title>
+
+</head>
+<body>
+<style>
+    .jumbotron{
+        height:auto;
+        padding:20px 0 !important;
+ }
+</style>
+  <div class="container">
+    <div style="background:transparent" class="jumbotron">
+        <div style="font-family: 'Tangerine', serif;">
+        <p>
+          <center>
+          <font size="8">PatentSearch</font>
+          </center>
+        </p>
+      </div>
+    </div>
+
+    <form action="/" method="post">
+      <div>
+        <input type="text" class="form-control input-lg" name="input" placeholder="Search" autofocus>
+        <br>
+        <div style="text-align: center;">
+          <button class="btn btn-primary btn-lg" type="submit" formaction="search">
+            <i class="glyphicon glyphicon-search"></i>
+            ElasticSearch
+          </button>
+          <button class="btn btn-primary btn-lg" type="submit" formaction="bert">
+            <i class="glyphicon glyphicon-search"></i>
+            BertSearch
+          </button>
+        </div>
+      </div>
+    </form>
+
+    <br><br>
+      </div>
+    </div>
+  </body>
+</html>
