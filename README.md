@@ -1,6 +1,14 @@
 Patent Search Engine
 ====================
 
+### This is a "[CS242] Information Retrival and Web Search" Project
+
+### University of California, Riverside
+
+### Winter 2023
+
+-----------
+
 Description
 -----------
 
@@ -22,9 +30,9 @@ Installation
 
 1. Install Python 3.6 or higher on your machine.
 2. Install Elasticsearch by following the instructions in the official documentation: <https://www.elastic.co/guide/en/elasticsearch/reference/current/install-elasticsearch.html>.
-3. Clone this repository using `git clone https://github.com/AnishmMore/patent_search.git`.
-4. Navigate to the cloned repository by running `cd patent_searchgit`.
-5. Install the required Python packages by running `pip install -r requirements.txt`.
+3. Clone this repository using $`git clone https://github.com/AnishmMore/patent_search.git`.
+4. Navigate to the cloned repository by running $`cd patent_search` .
+5. Install the required Python packages by running $`pip install --ignore-installed -r requirements.txt` OR simply run the `run.sh` script [windows]: $`bash .\run.sh` OR [unix/linux]: $`.\run.sh`.
 
 Usage
 -----
@@ -45,12 +53,6 @@ Credits
 - The Flask web framework was used to develop the web application.
 - The Elasticsearch library was used to index and search patent documents.
 - The Flask-Paginate library was used to implement pagination in the search results.
-
-### This is CS242 "Information Retrival and Web Search" Project
-
-### (University of California, Riverside)
-
-### Winter 2023
 
 Team Members and Contributors
 ------
