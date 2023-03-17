@@ -1,18 +1,19 @@
 #!/bin/bash
-
-# Check if all dependencies are installed
-if python3 -c "import pkg_resources; \
-    all(pkg_resources.get_distribution(dist).version in line \
-        for line in open('requirements.txt') \
-        for dist in line.split('=')[0].strip())";
+if ! command -v pip &> /dev/null
 then
-    # Dependencies are already installed
-    echo "All dependencies are already installed."
-else
+    echo "pip is not installed. Please install pip and try again. or use: sudo apt-get install python3-pip"
+    exit
+fi
+# Check if all dependencies are installed
+if ! (pip freeze | grep -Fxq -f requirements.txt)
+then
     # Some dependencies are missing, so install them
     echo "Installing missing dependencies..."
     pip install --ignore-installed -r requirements.txt
     echo "Dependencies installed."
+else
+    # Dependencies are already installed
+    echo "All dependencies are already installed."
 fi
 
 # Run app
