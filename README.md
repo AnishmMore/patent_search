@@ -51,9 +51,10 @@ Credits
 
 Team Members and Contributors
 ------
+- Akash Bilgi  
+- Amrutha Alewoor 
+- Anish More  
+- Kaushik Daiv  
+- Mrunali Lachake 
 
-- Akash Bilgi   [netID - abilg003  SID – 862395080 ]
-- Kaushik Daiv  [netID - kdaiv001 SID – 862393181 ]
-- Mrunali Lachake [netID - mlach008 SID – 862394872 ]
-- Amrutha Alewoor [netID - aalew002 SID – 862395063 ]
-- Anish More   [netID - amore159 SID – 862324523 ]
+ 
