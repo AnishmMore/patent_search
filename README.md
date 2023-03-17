@@ -47,10 +47,12 @@ Credits
 - The Flask-Paginate library was used to implement pagination in the search results.
 
 This is CS242 "Information Retrival and Web Search Project"
+
 (University of California, Riverside)
+
 Winter 2023
 
-Team Members
+Team Members and Contributors
 ------
 
 - Akash Bilgi   [netID - abilg003  SID – 862395080 ]
