@@ -1,12 +1,6 @@
 Patent Search Engine
 ====================
 
-### This is a "[CS242] Information Retrival and Web Search" Project
-
-### University of California, Riverside
-
-### Winter 2023
-
 -----------
 
 Description
