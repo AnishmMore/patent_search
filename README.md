@@ -46,11 +46,11 @@ Credits
 - The Elasticsearch library was used to index and search patent documents.
 - The Flask-Paginate library was used to implement pagination in the search results.
 
-This is CS242 "Information Retrival and Web Search Project"
+## This is CS242 "Information Retrival and Web Search Project"
 
-(University of California, Riverside)
+## (University of California, Riverside)
 
-Winter 2023
+## Winter 2023
 
 Team Members and Contributors
 ------
