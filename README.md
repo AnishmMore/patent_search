@@ -24,6 +24,7 @@ Requirements
 - Faiss
 - Pandas
 - Flask-Paginate
+- pip (fro reequirements installation)
 
 Installation
 ------------
