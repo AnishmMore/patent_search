@@ -32,7 +32,7 @@ Installation
 1. Install Python 3.6 or higher on your machine.[optional]
 2. Install Elasticsearch by following the instructions in the official documentation: <https://www.elastic.co/guide/en/elasticsearch/reference/current/install-elasticsearch.html>.[optional]
 3. Run Elasticsearch by navigating to the Elasticsearch directory and running .\bin\elasticsearch.bat on Windows or ./bin/elasticsearch on Unix/Linux.[optional]
-4. Clone this repository using $`git clone https://github.com/AnishmMore/patent_search.git`.
+4. Clone this repository using $`git clone https://github.com/akashbilgi/patent_search.git`.
 5. Navigate to the cloned repository by running $`cd patent_search` .
 6. Install the required Python packages by running $`pip install --ignore-installed -r requirements.txt` OR simply run the `run.sh` script [windows]: $`bash .\run.sh` OR [unix/linux]: $`.\run.sh`.
 
