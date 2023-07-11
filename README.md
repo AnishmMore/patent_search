@@ -54,8 +54,9 @@ Team Members and Contributors
 - Akash Bilgi  
 - Amrutha Alewoor 
 - Anish More
+- Mrunali Lachake
 - Kaushik Daiv  
-- Mrunali Lachake 
+ 
   
 
 
