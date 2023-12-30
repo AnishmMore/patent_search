@@ -51,9 +51,9 @@ Credits
 
 Team Members and Contributors
 ------
+- Anish More
 - Akash Bilgi  
 - Amrutha Alewoor 
-- Anish More
 - Mrunali Lachake
 - Kaushik Daiv  
  
